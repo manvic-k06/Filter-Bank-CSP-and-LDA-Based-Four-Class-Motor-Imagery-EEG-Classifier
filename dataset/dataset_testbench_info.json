@@ -1,0 +1,19 @@
+{
+  "source_model": "../run/res/model_s07.npz",
+  "test_source": "T30%",
+  "trials": 82,
+  "features_per_trial": 96,
+  "classes": [
+    "left hand",
+    "right hand",
+    "feet",
+    "tongue"
+  ],
+  "feature_fraction_bits": 8,
+  "weight_fraction_bits": 11,
+  "feature_values_clipped": 0,
+  "weight_values_clipped": 0,
+  "bias_values_clipped": 0,
+  "quantized_software_accuracy_vs_dataset_labels": 0.8048780487804879,
+  "note": "Features and labels come from held-out dataset trials processed by the notebook pipeline."
+}
